@@ -1,11 +1,14 @@
 package com.nbs.driver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import com.nbs.config.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import com.nbs.config.ConfigFactory;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 // takes care of logic of which browser to launch
 
@@ -17,8 +20,9 @@ public final class DriverFactory {
         WebDriver driver;
         String browser = ConfigFactory.getConfig().browser();
         if(browserName.equalsIgnoreCase("chrome")) {
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+        	 ChromeOptions chromeOptions = new ChromeOptions();
+    		 chromeOptions.addArguments("--remote-allow-origins=*");
+    		 driver = new ChromeDriver(chromeOptions);
         } else if(browserName.equalsIgnoreCase("firefox")){
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();

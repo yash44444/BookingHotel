@@ -7,6 +7,13 @@ public interface FrameworkConfig extends Config {
 
     String url();
     String browser();
+    String destination();
+    String firstName();
+    String lastName();
+    String email();
+    String address(); 
+    String city();
+    String phone();
     long timeout();
 
 }

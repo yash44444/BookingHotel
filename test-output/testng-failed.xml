@@ -5,6 +5,8 @@
     <classes>
       <class name="Test1">
         <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
           <include name="launchApplication"/>
         </methods>
       </class> <!-- Test1 -->

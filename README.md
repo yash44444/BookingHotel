@@ -23,7 +23,7 @@ Github repo for source code maintainance.
 
 ## How to test PWA
 * PWAs should meet the requirements of a PWA such as working on HTTPS, being responsive, being installable.
-* PWAs API calls should be thoroughly tested until consistent benahour is attained. 
+* PWAs API calls should be thoroughly tested until consistent behaviour is attained. 
 * PWAs should be responsive and work well on different devices. Test the PWA on various screen sizes, operating systems, and browsers.
 * PWAs should work offline or in a low-quality network environment. Test the PWA in offline mode, and see how it performs.
 * PWAs should be installable on the device’s home screen. 

@@ -21,3 +21,13 @@ Github repo for source code maintainance.
 3) The data is placed in config.properties file which is invoked by the tests under run.
 4) testng reports will be generated under test-output directory. Open index.html in browser.
 
+## How to test PWA
+* PWAs should meet the requirements of a PWA such as working on HTTPS, being responsive, being installable.
+* PWAs API calls should be thoroughly tested until consistent benahour is attained. 
+* PWAs should be responsive and work well on different devices. Test the PWA on various screen sizes, operating systems, and browsers.
+* PWAs should work offline or in a low-quality network environment. Test the PWA in offline mode, and see how it performs.
+* PWAs should be installable on the device’s home screen. 
+* PWAs should load fast and perform well. Test the PWA's loading speed, user experience, and overall performance.
+* PWAs should be secure and follow the best security practices. Test the security features of the PWA, such as HTTPS, content security policies, etc.
+* PWAs should support push notifications. Test the push notification feature of the PWA.
+* PWAs should be accessible to all users, including users with disabilities. 

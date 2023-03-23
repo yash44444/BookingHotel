@@ -1,0 +1,12 @@
+com\nbs\driver\DriverFactory.class
+com\nbs\pages\HotelListPage.class
+com\nbs\config\FrameworkConfig.class
+com\nbs\config\ConfigFactory.class
+com\nbs\pages\HomePage.class
+com\nbs\pages\AddressPage.class
+com\nbs\driver\DriverManager.class
+com\nbs\pages\ReservationPage.class
+com\nbs\pages\PaymentPage.class
+com\nbs\utils\PageActionsUtils.class
+com\nbs\enums\WaitType.class
+com\nbs\driver\Driver.class
